@@ -1,0 +1,200 @@
+[17-Dec-2015 19:19:38 UTC] PHP Parse error:  syntax error, unexpected '@' in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 396
+[17-Dec-2015 19:20:42 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 397
+[17-Dec-2015 19:20:49 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 397
+[17-Dec-2015 19:24:41 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 397
+[17-Dec-2015 19:24:50 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 397
+[17-Dec-2015 19:33:50 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 400
+[17-Dec-2015 19:38:39 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 400
+[17-Dec-2015 19:42:24 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 400
+[17-Dec-2015 19:42:53 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 400
+[17-Dec-2015 19:53:06 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 400
+[17-Dec-2015 19:53:47 UTC] PHP Warning:  require_once(../class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 19:53:47 UTC] PHP Fatal error:  require_once(): Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 19:57:18 UTC] PHP Warning:  require(../class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 19:57:18 UTC] PHP Fatal error:  require(): Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 19:57:54 UTC] PHP Warning:  require(../class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 19:57:54 UTC] PHP Fatal error:  require(): Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:00:12 UTC] PHP Warning:  require(../class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:00:12 UTC] PHP Fatal error:  require(): Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:01:28 UTC] PHP Warning:  require_once(../soporte/sistemas/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:01:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../soporte/sistemas/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:01:57 UTC] PHP Warning:  require_once(../soporte/sistemas/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:01:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../soporte/sistemas/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:05:13 UTC] PHP Warning:  require(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:05:13 UTC] PHP Fatal error:  require(): Failed opening required '../PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:09:20 UTC] PHP Warning:  require_once(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:09:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:19:08 UTC] PHP Warning:  require_once(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:19:08 UTC] PHP Fatal error:  require_once(): Failed opening required '../PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:44:30 UTC] PHP Warning:  include(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:44:30 UTC] PHP Warning:  include(): Failed opening '../PHPMailer/class.phpmailer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:44:30 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 385
+[17-Dec-2015 20:45:58 UTC] PHP Warning:  require(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:45:58 UTC] PHP Fatal error:  require(): Failed opening required '../PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:47:09 UTC] PHP Warning:  require(../PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:47:09 UTC] PHP Fatal error:  require(): Failed opening required '../PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:50:18 UTC] PHP Warning:  require(../class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:50:18 UTC] PHP Fatal error:  require(): Failed opening required '../class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:52:07 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/sporte/sistemas/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:52:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/sporte/sistemas/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:59:46 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/sporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 20:59:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/sporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:00:34 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/sporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:00:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/sporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:01:00 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:01:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:01:35 UTC] PHP Warning:  require_once(/home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:01:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:02:38 UTC] PHP Warning:  require_once(/home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:02:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:03:18 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:03:18 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:04:01 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:04:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:09:59 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:09:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:10:34 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:10:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/PHPMailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:20:31 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:20:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:26:27 UTC] PHP Warning:  require_once(home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:26:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 382
+[17-Dec-2015 21:39:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:403) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 424
+[17-Dec-2015 21:42:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:403) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 424
+[29-Dec-2015 00:29:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:404) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 422
+[29-Dec-2015 00:30:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:404) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 422
+[29-Dec-2015 00:52:20 UTC] PHP Fatal error:  Call to undefined method PHPMailer::setFrom() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 396
+[29-Dec-2015 00:53:40 UTC] PHP Fatal error:  Call to undefined method PHPMailer::setFrom() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 396
+[29-Dec-2015 01:09:35 UTC] PHP Fatal error:  Call to undefined method PHPMailer::SetFrom() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 394
+[29-Dec-2015 01:12:27 UTC] PHP Notice:  Undefined variable: email in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 394
+[29-Dec-2015 01:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:394) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420
+[29-Dec-2015 13:32:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 273
+[29-Dec-2015 13:32:48 UTC] PHP Notice:  Undefined variable: email in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 394
+[29-Dec-2015 13:32:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:273) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420
+[29-Dec-2015 16:34:41 UTC] PHP Notice:  Undefined variable: email in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 394
+[29-Dec-2015 16:34:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:394) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420
+[29-Dec-2015 17:30:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:402) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 419
+[29-Dec-2015 17:34:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/email.php:402) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 419
+[29-Dec-2015 18:00:08 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:00:08 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:00:08 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 583
+[29-Dec-2015 18:12:00 UTC] PHP Warning:  include(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:12:00 UTC] PHP Warning:  include(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:12:00 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:12:00 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:12:00 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 583
+[29-Dec-2015 18:12:57 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:12:57 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:12:57 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:12:57 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:12:57 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 583
+[29-Dec-2015 18:15:53 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:15:53 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:15:53 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:15:53 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:15:53 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 583
+[29-Dec-2015 18:17:05 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:17:05 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 515
+[29-Dec-2015 18:17:05 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/class.phpmailer.php on line 583
+[29-Dec-2015 18:42:10 UTC] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:42:10 UTC] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 379
+[29-Dec-2015 18:42:10 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1443
+[29-Dec-2015 18:42:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.smtp.php:234) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420
+[29-Dec-2015 18:49:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.smtp.php:234) in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420
+[29-Dec-2015 20:00:20 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) From: Consulta<rmusliutn@gmail.com>
+Reply-To: rmusliutn@gmail.com
+X-Mailer: PHP/5.4.30' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(401): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[29-Dec-2015 20:18:14 UTC] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 399
+[29-Dec-2015 20:32:53 UTC] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 399
+[29-Dec-2015 20:56:38 UTC] PHP Fatal error:  Call to undefined method PHPMailer::AltBody() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 399
+[29-Dec-2015 20:58:55 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'You must provide at least one recipient email address.' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1208
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1208
+[29-Dec-2015 20:59:34 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'You must provide at least one recipient email address.' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1208
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1208
+[29-Dec-2015 21:00:15 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) From: Consulta<rmusliutn@gmail.com>
+Reply-To: rmusliutn@gmail.com
+X-Mailer: PHP/5.4.30' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[22-Apr-2016 19:04:36 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1464
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1300): PHPMailer->smtpSend('Date: Fri, 22 A...', 'This is a multi...')
+#1 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1180): PHPMailer->postSend()
+#2 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#3 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1464
+[14-Jul-2016 12:48:02 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) cyuchechen@forestcar,com.ar' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[14-Jul-2016 12:48:09 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) cyuchechen@forestcar,com.ar' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[14-Jul-2016 12:48:23 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) cyuchechen@forestcar,com.ar' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[14-Jul-2016 12:48:57 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) cyuchechen@forestcar,com.ar' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[14-Jul-2016 12:51:26 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (punyEncode) cyuchechen@forestcar,com.ar' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1223
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1223
+[04-Aug-2016 11:29:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 273
+[04-Aug-2016 11:29:16 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1237
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1237
+[08-Aug-2016 15:06:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 273
+[08-Aug-2016 15:06:00 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1237
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1237
+[08-Aug-2016 17:16:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 273
+[08-Aug-2016 17:16:13 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1237
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1237
+[09-Aug-2016 13:22:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 273
+[09-Aug-2016 13:22:32 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php:1237
+Stack trace:
+#0 /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php(1177): PHPMailer->preSend()
+#1 /home/rmuslim2/public_html/soporte/sistemas/email.php(402): PHPMailer->send()
+#2 {main}
+  thrown in /home/rmuslim2/public_html/soporte/sistemas/PHPMailer-master/PHPMailer-master/class.phpmailer.php on line 1237
+[09-Aug-2016 14:26:44 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/rmuslim2/public_html/soporte/sistemas/email.php on line 420

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Soporte IT - Forest Car S.A.</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+	<!-- file input style 	-->
+	<link rel="stylesheet" href="src/jquery-filestyle.min.css">
+	
+	<link type="text/css" rel="stylesheet" href="kartik-v-bootstrap-fileinput/css/fileinput.min.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500' rel='stylesheet' type='text/css'>
+	
+	 
+
+</head>
+	<body ng-app="myApp"  >
+		<div class="container contenedor col-md-10 col-md-offset-1   ">
+			<div class= "row" >
+				<div id = "encabezado" class= "col-md-12   page-header ">
+					<img class= "img-responsive img-right" src="images/Forest Car.fw.png" align="right" />
+					<img class= "img-responsive img-left" src="images/header_soporteit.fw.png" align="left"  />
+
+				</div>
+	        </div>  
+			
+			<div  id ="form" class= "row" >
+			  <div ng-controller="validationController">	
+				<form ng-submit="submit(userForm.$valid)" action="mail.php" method="post" name="userForm" id="form">
+				  
+				  <input name="target" id="target" value="soporte.it@forestcar.com.ar" type="hidden" />	
+				  
+				  <div class="col-md-6 ">
+				  	
+					    <div class="form-group" ng-class="{'has-error': userform.nombre.$invalid && !userForm.nombre.$pristine}">
+					    	<label for="nombre">Nombre</label>
+							<input ng-model="user.nombre" id="nombre" class="form-control" type="text" name="nombre" placeholder="Nombre..." required/>	
+						    <p ng-show="userForm.nombre.$invalid && !userForm.nombre.$pristine" class="help-block">Su nombre es requerido.</p>
+					    </div>
+						
+					    <div class="form-group" ng-class="{'has-error': userForm.apellido.$invalid && !userForm.apellido.$pristine}">
+					    	<label for="apellido">Apellido</label>
+							<input ng-model="user.apellido" id="apellido" class="form-control" type="text" name="apellido" placeholder="Apellido..." required/>	
+							<p ng-show="userForm.apellido.$invalid && !userForm.apellido.$pristine" class="help-block">Su apellido es requerido.</p>
+					    </div>
+						
+				  </div>	
+					
+				  <div class="col-md-6 ">
+					  
+                      	<div class="form-group" ng-class="{'has-error': userForm.telefono.$invalid && !userForm.telefono.$pristine}">
+					    	<label for="telefono">Telefono de contacto...</label>
+							<input ng-model="user.telefono" id="telefono" class="form-control" type="tel" name="telefono" placeholder="Ej. (011)4567-7894" required />
+							<p ng-show="userForm.telefono.$invalid && !userForm.telefono.$pristine" class="help-block">Un telefono es requerido para contactarnos.</p>	
+					  	</div>
+
+					  <div class="form-group" >
+					  <label for="asunto">Asunto...</label>
+						  <select name="asunto" id="asunto" data-style="btn-primary" class="form-control" placeholder="Asunto..." required>
+			        	          <option>Seleccionar</option>
+			        	          <option>ABM Usuario/s</option>
+			        	          <option>Cambio de puesto</option>
+		                          <option>PC Nueva</option>
+		                          <option>CRM</option>
+		                          <option>FBS</option>
+		                          <option>App Bancos/AFIP</option>
+		                          <option>App Otros</option>
+		                          <option>Internet</option>
+		                          <option>VPN</option>
+		                          <option>Puesto Red</option>
+					  			  <option>Help Desk PC</option>
+		                          <option>Herramienta Office</option>
+					              <option>Reloj Fichadas</option>
+		                          <option>Teclado/Mouse</option>
+		                          <option>Monitor</option>
+		                          <option>Impresora Fiscal</option>
+		                          <option>Impresora</option>
+					              <option>Problema MAIL</option>
+		                          <option>Backup/Restore Info</option>
+		                          <option>Otros</option>
+			                </select>
+					    </div>
+						
+					 </div>
+
+
+					<div class="col-md-12 ">
+
+						<div class="form-group" ng-class="{'has-error': userForm.comentario.$invalid && !userForm.comentario.$pristine}">
+					    	<label for="comentario"></label>
+							<textarea ng-model="user.cometario" class="form-control" rows="5" id ="comentario" name ="comentario" placeholder="Comentario..." required></textarea>	
+					    	<span class="help-block" >Ingrese en esta zona de texto una descripcion de su problema y/o solicitud</span>
+							<p ng-show="userForm.telefono.$invalid && !userForm.telefono.$pristine" class="help-block">Un telefono es requerido para contactarnos.</p>	
+					    </div>
+						
+						<div class="form-group">
+					    
+					    <!--<input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="true" data-show-caption="true" > -->						
+     											        
+			            
+				            <div class="input-group">
+				                <label class="input-group-btn">
+				                    <span class="btn btn-primary">
+				                        <i class="glyphicon glyphicon-paperclip"></i> <input type="file" style="display: none;" multiple>
+				                    </span>
+				                </label>
+				                <input type="text" class="form-control" readonly>
+				            </div>
+				                
+	     					<span class="help-block">
+					                Puede adjuntar un archivos y/o imagenes (Max. 5) si lo necesita...
+					        </span>
+									
+			         			
+					    </div>
+								
+				
+					<div class="">						
+						<button id="btn-enviar" type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#enviar" >
+							<i class=" glyphicon glyphicon glyphicon-thumbs-up icon-white"></i>
+							Listo!
+						</button>
+					                   
+                   </div>
+           
+					<div id="enviar" class="modal fade" role="dialog" >
+					  <div class="modal-dialog">
+
+					     <div class="modal-content">
+					      <div class="modal-header">
+	
+					            <button type="button" class="close" data-dismiss="modal" ng-click="submitForm">&times;</button>
+					            <h4 class="modal-title">Ingrese sus credenciales para enviar la solicitud...</h4>
+					        								
+					      </div>
+					      
+					      <div class="modal-body" >
+					        <div class="form-group" >
+					    	    <label for="email">Direccion de correo</label>
+							    <input id="email" class="form-control" type="email" name="email" placeholder="Ej.: algiuen@forestcar.com.ar" />	
+					        </div>
+						
+							<div ng-controller="showPass" class="form-group" >
+					    	
+					    		<label for="password">Contrase&ntilde;a</label>
+								<input class="form-control"  type="{{inputType}}" placeholder="Ingrese su contraseña..."/>
+								<input type="checkbox" id="checkbox" ng-model="passwordCheckbox" ng-click="hideShowPassword()" />
+                                   <label for="checkbox" ng-if="passwordCheckbox">Esconder contrase&ntilde;a</label>
+                                   <label for="checkbox" ng-if="!passwordCheckbox">Mostrar contrase&ntilde;a</label>  
+
+								
+					      	</div>
+					      
+					      <div class="modal-footer">
+		
+					      	<input type="submit" class="btn btn-primary btn-lg btn-block"/></input>
+					      
+					      </div>
+					    </div>
+
+					  </div>
+					</div>
+
+
+                    </div>  
+					
+					
+				</form>
+				
+			</div>
+			
+			<div id = "pie" class= "col-md-8 col-md-offset-2">
+				<br>
+				<br>
+				<p class="text-center text-muted" style="font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 10pt;" >POLITICAS DE USO:<small>En cumplimiento de lo dispuesto en la Ley Orgánica 15/1999, de Protección de Datos de Carácter Personal (LOPD) se informa al usuario que todos los datos que nos proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de Forest Car S.A.
+				Siempre se va a respetar la confidencialidad de sus datos personales que sólo serán utilizados con la finalidad de gestionar los servicios ofrecidos, atender a las solicitudes que nos plantee, realizar tareas administrativas, así como remitir información técnica, comercial o publicitaria por vía ordinaria o electrónica. </small></p>
+			
+
+
+
+
+				<p class="text-center text-muted" style="font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 10pt;  " >CONDICIONES DE USO:<small>Las condiciones de acceso y uso del presente sitio web se rigen por 
+				la  legalidad vigente y por el principio de buena fe comprometiéndose el usuario a  
+				   realizar un buen uso de la web. No se permiten conductas que vayan contra la ley, los derechos o intereses de terceros.
+                   Ser usuario de la web de (página web de la empresa) implica que reconoce haber leído y aceptado las presentes condiciones y lo que las extienda la normativa legal aplicable en esta materia. Si por el motivo que fuere no está de acuerdo con estas condiciones no continúe usando esta web. </small></p>
+			</div>
+			
+		</div>
+		
+ 		<!--
+		<script>
+				$("#input-2").fileinput({
+				language: "es",
+				browseLabel: "",
+				browseIcon: '<i class="glyphicon glyphicon-paperclip"></i>'
+
+				});
+
+		</script>
+		-->
+		
+	
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+		<!-- Bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+		<!-- File input JS -->
+		<script src="src/jquery-filestyle.min.js"></script>
+		<!--<script src="kartik-v-bootstrap-fileinput/js/fileinput.min.js"></script>
+		<script src="kartik-v-bootstrap-fileinput/js/fileinput_locale_es.js"></script>
+		-->
+		<script src="app.js"></script>       
+	    <script src="controlador.js"></script>      
+
+
+		<script>
+			$(function() {
+
+				  // We can attach the `fileselect` event to all file inputs on the page
+				  $(document).on('change', ':file', function() {
+				    var input = $(this),
+				        numFiles = input.get(0).files ? input.get(0).files.length : 1,
+				        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+				    input.trigger('fileselect', [numFiles, label]);
+				  });
+
+				  // We can watch for our custom `fileselect` event like this
+				  $(document).ready( function() {
+				      $(':file').on('fileselect', function(event, numFiles, label) {
+
+				          var input = $(this).parents('.input-group').find(':text'),
+				              log = numFiles > 1 ? numFiles + ' archivos adjuntados ' : label;
+
+				          if( input.length ) {
+				              input.val(log);
+				          } else {
+				              if( log ) alert(log);
+				          }
+
+				      });
+				  });
+				  
+				});
+
+		</script>
+        
+
+		
+		
+	</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Soporte IT - Forest Car S.A.</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- file input style 
+	<link rel="stylesheet" href="src/jquery-filestyle.min.css">	-->
+	
+	<link type="text/css" rel="stylesheet" href="kartik-v-bootstrap-fileinput/css/fileinput.min.css">
+	
+	
+	
+
+
+		
+	
+
+</head>
+	<body>
+
+		<div class="container contenedor ">
+			
+			<div id = "encabezado" class= "col-md-8 col-md-offset-2 page-header ">
+				<img src="http://forestcar.com.ar/soporte/sistemas/img/encabezado.jpg" />
+			</div>
+
+			<div id = "form" class= " col-md-6 form-inline" >
+				
+				<form action="mail.php" method="post">
+				    <div class="form-group" >
+				    	<label for="nombre">Nombre</label>
+						<input id="nombre" class="form-control" type="text" name="nombre" placeholder="Nombre..." />	
+				    </div>
+					
+					<div class="form-group">
+				    	<label for="apellido">Apellido</label>
+						<input id="apellido" class="form-control" type="text" name="apellido" placeholder="Apellido..." />	
+				    </div>
+					
+					
+					<div class="form-group" >
+				    	<label for="telefono">Telefono de contacto...</label>
+						<input id="telefono" class="form-control" type="tel" name="telefono" placeholder="Ej. (011)4567-7894" />	
+				    </div>
+					
+					
+					<div class="form-group" >
+				    	<label for="asunto">Asunto...</label>
+						<select name="asunto" id="asunto" data-style="btn-primary" class="form-control" placeholder="Asunto..." >
+	        	              <option>Seleccionar</option>
+	        	              <option>ABM Usuario/s</option>
+	        	              <option>Cambio de puesto</option>
+	                          <option>PC Nueva</option>
+	                          <option>CRM</option>
+	                          <option>FBS</option>
+	                          <option>App Bancos/AFIP</option>
+	                          <option>App Otros</option>
+	                          <option>Internet</option>
+	                          <option>VPN</option>
+	                          <option>Puesto Red</option>
+							  <option>Help Desk PC</option>
+	                          <option>Herramienta Office</option>
+							  <option>Reloj Fichadas</option>
+	                          <option>Teclado/Mouse</option>
+	                          <option>Monitor</option>
+	                          <option>Impresora Fiscal</option>
+	                          <option>Impresora</option>
+							  <option>Problema MAIL</option>
+	                          <option>Backup/Restore Info</option>
+	                          <option>Otros</option>
+	                    </select>
+				    </div>
+					
+					 
+
+					<div class="form-group">
+				    	<label for="comentario"></label>
+						<textarea class="form-control" rows="5" placeholder="Comentario..."></textarea>	
+				    	<span class="help-block">Ingrese en la siguiente zona de texto una descripcion de su problema y/o solicitud</span>
+				    </div>
+					
+                      
+					
+					<div class="form-group">
+					    
+					    <input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true" placeholder="Archivos...">
+						<script>
+								$(document).on('ready', function() {
+								    $("#input-2").fileinput({
+								        showUpload: false,
+								        maxFileCount: 5,
+								       
+								        
+								    });
+								});
+
+								
+						</script>
+     					
+     					<span class="help-block">
+				                Puede adjuntar un archivos y/o imagen si lo necesita...
+				        </span>
+
+			         					
+					</div>
+					
+							
+
+									
+					<button id="btn-enviar" type="button" class="btn btn-primary">
+						<i class=" glyphicon glyphicon-envelope icon-white"></i>
+						Enviar
+					</button>
+						
+
+				</form>
+				
+			</div>
+			
+			<div id = "pie" class= "col-md-6 col-md-offset-3">
+				<p>pie</p>
+			</div>
+			
+		</div>
+		
+	
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+		<!-- Bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<!-- File input JS -->
+		
+		<script src="kartik-v-bootstrap-fileinput/js/fileinput.min.js"></script>
+		<script src="kartik-v-bootstrap-fileinput/js/fileinput_locale_es.js"></script>
+		
+				
+
+		<script>
+			$("#input-2").fileinput({
+				language: "es",
+			    browseLabel: "",
+			    browseIcon: '<i class="glyphicon glyphicon-paperclip"></i>'
+
+			});
+
+
+			
+		</script>
+
+	
+
+		
+	</body>
+</html>

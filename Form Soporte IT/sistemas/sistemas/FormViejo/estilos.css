@@ -1,0 +1,43 @@
+.fondo_form {
+	background-image: url(img/ventas_especiales_empresas_form.jpg);
+	background-repeat: no-repeat;
+	height: 850px;
+	width: 600px;
+}
+.texto {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+.boton {
+	background-image: url(img/btn.jpg);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 73px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.tel {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	color: #666;
+}
+.recuadro {
+	background-color: #D5E7EE;
+	padding: 5px;
+	border: thin solid #75A3B3;
+	margin: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	height: 60px;
+	width: 100%;
+}
